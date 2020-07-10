@@ -3,7 +3,7 @@ terraform {
   backend "azurerm" {
     storage_account_name = "ghademo0tfstate"
     container_name       = "tfstate"
-    key                  = "${var.env}.terraform.tfstate"
+    key                  = var.providerkey
   }
 }
 
