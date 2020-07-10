@@ -5,13 +5,6 @@ variable "location" {
   default = "uksouth"
 }
 
-variable "providerkey" {
-  description = "The location for resource deployment"
-  type        = string
-
-  default = "dev.terraform.tfstate"
-}
-
 variable "tags" {
   description = "A map of tags to assign to the resource."
   type        = map
