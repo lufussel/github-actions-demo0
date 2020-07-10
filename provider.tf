@@ -6,7 +6,7 @@ terraform {
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }
-}f
+}
 
 provider "azurerm" {
   version = "= 2.0.0"
