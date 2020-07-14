@@ -15,7 +15,7 @@ resource "azurerm_storage_account" "storage_account" {
   tags = var.tags
 }
 
-resource "azurerm_storage_account" "storage_account" {
+resource "azurerm_storage_account" "storage_account2" {
   name                     = "${var.env}${var.app_name}2"
   resource_group_name      = azurerm_resource_group.storage_rg.name
   location                 = azurerm_resource_group.storage_rg.location
